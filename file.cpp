@@ -1,4 +1,4 @@
-/* SPIKE CPP Auto Payload */
+
 #include <iostream>
 #include <cstdlib>
 #include <cstring>
@@ -15,7 +15,7 @@
     #include <unistd.h>
 #endif
 
-#define PAYLOAD_SIZE 20
+#define PAYLOAD_SIZE 1500
 class Attack {
 public:
     Attack(const std::string& ip, int port, int duration)
